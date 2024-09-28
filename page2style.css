@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+header {
+    background-color: rgb(255, 132, 0);
+    padding: 10px;
+    text-align: center;
+}
+.divider {
+    height: 3px;
+    background-color: black;
+    margin: 0;
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+    color: black;
+}
+nav {
+    background-color: rgb(243, 185, 78);
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 1400px;
+    text-decoration: none;
+    color: blue;
+}
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+.sidebar, .right-bar {
+    width: 200px;
+    padding: 10px;
+    background-color:  rgb(255, 132, 0);
+}
+.sidebar a, .right-bar a {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(255, 132, 0);
+    box-sizing: border-box;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.login-form {
+    text-align: right;
+    margin: 5px;
+    color: black;
+}
+.password-form{
+    margin: 5px;
+    text-align: right;
+}
+.button_enter{
+    text-align: right;
+    padding-right: 122px;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+ul, ol {
+    margin-left: 20px;
+}
+.banners {
+    background-color: rgb(255, 132, 0);
+    text-align: center;
+}
+.banners a {
+    display: block;
+    margin: 10px 0;
+    color: blue;
+} 
+
+.container{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color:black;
+}
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
